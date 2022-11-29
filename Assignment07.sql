@@ -383,7 +383,6 @@ Create Or Alter Function dbo.fProductInventoriesWithPreviousMonthCountsWithKPIs(
 	);
 go
 
-go
 
 -- Check that it works:
 Select * From fProductInventoriesWithPreviousMonthCountsWithKPIs(1);
